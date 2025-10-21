@@ -1,0 +1,41 @@
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-block: 22px;
+  padding-inline: 64px;
+  font-size: 11.9px;
+  letter-spacing: 0.04em;
+  font-family: Ondo;
+  font-weight: 500;
+  color: var(--clr-30);
+  
+  .background {
+    position: absolute;
+    inset: 0;
+    transform: skew(-14deg);
+    background-position: center;
+    background-image: url('/texture.png');
+    background-size: cover;
+    z-index: -2;
+  }
+
+  input {
+    position: absolute;
+    inset: 0;
+    text-transform: uppercase;
+    background-color: transparent;
+  }
+
+  p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    inset: 0;
+    text-transform: uppercase;
+    background-color: transparent;
+  }
+}

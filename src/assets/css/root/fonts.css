@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'Ondo';
+    src: url('../../fonts/FONTSPRINGDEMO-OndoBoldItalic.woff2') format('woff2'),
+        url('../../fonts/FONTSPRINGDEMO-OndoBoldItalic.woff') format('woff'),
+        url('../../fonts/FONTSPRINGDEMO-OndoBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ondo';
+    src: url('../../fonts/FONTSPRINGDEMO-OndoExtraLightItalic.woff2') format('woff2'),
+        url('../../fonts/FONTSPRINGDEMO-OndoExtraLightItalic.woff') format('woff'),
+        url('../../fonts/FONTSPRINGDEMO-OndoExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ondo';
+    src: url('../../fonts/FONTSPRINGDEMO-OndoItalic.woff2') format('woff2'),
+        url('../../fonts/FONTSPRINGDEMO-OndoItalic.woff') format('woff'),
+        url('../../fonts/FONTSPRINGDEMO-OndoItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ondo';
+    src: url('../../fonts/FONTSPRINGDEMO-OndoExtraLightRegular.woff2') format('woff2'),
+        url('../../fonts/FONTSPRINGDEMO-OndoExtraLightRegular.woff') format('woff'),
+        url('../../fonts/FONTSPRINGDEMO-OndoExtraLightRegular.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ondo';
+    src: url('../../fonts/FONTSPRINGDEMO-OndoLightItalic.woff2') format('woff2'),
+        url('../../fonts/FONTSPRINGDEMO-OndoLightItalic.woff') format('woff'),
+        url('../../fonts/FONTSPRINGDEMO-OndoLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ondo';
+    src: url('../../fonts/FONTSPRINGDEMO-OndoBoldRegular.woff2') format('woff2'),
+        url('../../fonts/FONTSPRINGDEMO-OndoBoldRegular.woff') format('woff'),
+        url('../../fonts/FONTSPRINGDEMO-OndoBoldRegular.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ondo';
+    src: url('../../fonts/FONTSPRINGDEMO-OndoLightRegular.woff2') format('woff2'),
+        url('../../fonts/FONTSPRINGDEMO-OndoLightRegular.woff') format('woff'),
+        url('../../fonts/FONTSPRINGDEMO-OndoLightRegular.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ondo';
+    src: url('../../fonts/FONTSPRINGDEMO-OndoRegular.woff2') format('woff2'),
+        url('../../fonts/FONTSPRINGDEMO-OndoRegular.woff') format('woff'),
+        url('../../fonts/FONTSPRINGDEMO-OndoRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ondo';
+    src: url('../../fonts/FONTSPRINGDEMO-OndoMediumItalic.woff2') format('woff2'),
+        url('../../fonts/FONTSPRINGDEMO-OndoMediumItalic.woff') format('woff'),
+        url('../../fonts/FONTSPRINGDEMO-OndoMediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ondo';
+    src: url('FONTSPRINGDEMO-OndoMediumRegular.woff2') format('woff2'),
+        url('../../fonts/FONTSPRINGDEMO-OndoMediumRegular.woff') format('woff'),
+        url('../../fonts/FONTSPRINGDEMO-OndoMediumRegular.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../../fonts/Lato-Bold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../../fonts/Lato-Regular.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../../fonts/Lato-Light.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../../fonts/Lato-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+

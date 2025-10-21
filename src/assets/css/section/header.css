@@ -1,0 +1,193 @@
+header {
+  padding-bottom: 40px;
+   background-color: var(--clr-60);
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: clamp(4rem, 14.11vw , 5.57rem);
+    padding-inline: clamp(3.1rem, 7.44vw, 10rem);
+  }
+
+  nav .logo {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  nav .logo .icon {
+    width: 38.826px;
+    height: 29.582px;
+    background-image: url('../../img/headerhero.jpg');
+    background-size: cover;
+    -webkit-mask: url('../../icons/logo.svg') no-repeat centerr;
+    -wbkit-mask-size: contain;
+    mask: url('../../icons/logo.svg') no-repeat centerr;
+    mask-size: contain;
+  }
+   
+  nav .logo p {
+    font-family: Ondo;
+    font-weight: 500;
+    font-size: clamp(2.61rem, 4.41vw , 3.07rem);
+    letter-spacing: 0.04em;
+  }
+
+  nav ul {
+    display: none;
+    align-items: center;
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.11;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    gap: 40px;
+  }
+
+  nav ul :first-child {
+    font-weight: 600;
+  }
+
+  @media (min-width: 800px) {
+    nav ul {
+      display: flex;
+    }
+  }
+
+
+  /* Lockup */
+  
+
+  .lockup {
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+  }
+  
+  .lockup .type-lockup {
+    padding-inline: 31px;
+    margin-top: clamp(4rem, 8.43vw, 12rem);
+  }
+  
+  .lockup .type-lockup h1 {
+    /* max-width: 334px; */
+    font-family: Ondo;
+    text-transform: uppercase;
+    font-size: clamp(40.29px,
+      calc(40.29px + (68.94 - 40.29) * ((100vw - 390px) / (1440 - 390))),
+      68.94px
+    );
+    letter-spacing: 0.04em;
+    line-height: 1.11;
+    vertical-align: middle;
+  }
+
+  .lockup .type-lockup h1 div {
+    display: inline;
+    background-image: url('/texture.png');
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+    background-clip: text;
+  }
+  
+  .lockup .type-lockup p {
+    letter-spacing: 0.04em;
+    line-height: 1.85;
+    vertical-align: middle;
+    margin-top: 17px;
+    font-family: 'Lato';
+    font-weight: 400;
+  }
+
+  .lockup img {
+    height: 527px;
+    object-fit: cover;
+    position: relative;
+    margin-top: -52px;
+    left: -188px;
+    overflow: visible;
+    mix-blend-mode: color-dodge;
+  }
+
+  @media (min-width: 800px) {
+    .lockup {
+      flex-direction: row;
+      overflow-x: visible;
+    }
+
+    .lockup > * {
+      width: 50%;
+    }
+
+    .lockup img {
+      height: 947px;
+      left: -425px;
+    }
+  }
+
+  .infinite-scroll-and-cto {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .infinite-scroll-and-cto .cto {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 28px;
+    gap: 10px;
+  }
+
+  .achievements {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 43px;
+  }
+
+  .achievements ul {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+  }
+   
+  .achievements ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .achievements ul li h2 {
+    font-family: Ondo;
+    font-weight: 500;
+    font-size: 21.28px;
+    line-height: 1.11;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  .achievements ul li h2 span {
+    background-image: url('/texture.png');
+    color: transparent;
+    background-size: cover;
+    background-clip: text;
+    font-weight: 900;
+  }
+
+  .achievements ul li p {
+    margin-top: -3px;
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 13.28px;
+    line-height: 1.85;
+    letter-spacing: 0.04em;
+    vertical-align: middle;
+    text-transform: capitalize;
+  }
+}

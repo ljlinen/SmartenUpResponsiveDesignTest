@@ -1,0 +1,9 @@
+<svg width="27" height="50" viewBox="0 0 27 50" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path d="M0 0V49.5547H26.0231V23.5315L0 0Z" fill="url(#pattern0_1_838)"/>
+<defs>
+<pattern id="pattern0_1_838" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_1_838" transform="matrix(0.0160583 0 0 0.00843283 -3.27605 -0.193204)"/>
+</pattern>
+<image id="image0_1_838" width="360" height="240" preserveAspectRatio="none" xlink:href="/texture.png"/>
+</defs>
+</svg>

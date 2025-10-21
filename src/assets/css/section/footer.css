@@ -1,0 +1,131 @@
+footer {
+  height: 1085px;;
+  width: 100%;
+  position: relative;
+
+
+  .background {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: -520px -30px;
+    z-index: -2;
+    background-color: var(--clr-60);
+  }
+  
+  .background-2 {
+    position: absolute;
+    inset: 0;
+    background-image: url('../../img/55f7aeb09f18207824b6c76f0576386f2d4e33dd.jpg');
+    mix-blend-mode: color-dodge;
+    background-size: cover;
+    background-position: -520px -50px;
+    z-index: -1;
+  }
+
+  .infinite-scroller {
+    position: relative;
+    top: -30px;
+    transform: rotate(-0.08deg);
+    z-index: 2;
+  }
+
+  .footer-outro {
+    margin-top: 18px;
+    padding-inline: 31px;
+  }
+
+  .footer-outro .logo {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .footer-outro .logo svg {
+    width: 42.70px;
+    height: 32.53px;
+    background-size: cover;
+    background-position: 20px;
+  }
+   
+  .footer-outro .logo p {
+    font-family: Ondo;
+    font-weight: 500;
+    font-size: 28.72px;
+    letter-spacing: 0.04em;
+    font-family: Ondo;
+  }
+
+  .footer-outro > p {
+    margin-top: 10px;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    line-height: 1.72;
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  .quicklinks {
+    display: flex;
+    flex-wrap: wrap;
+    padding-inline: 31px;
+    margin-top: 26px;
+    row-gap: 55px;
+    column-gap: 50px;
+  }
+
+  .quicklinks .wrap h3 {
+    font-family: Lato;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.11;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+  }
+
+  .quicklinks .wrap ul {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .quicklinks .wrap ul a {
+    font-family: Lato;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    text-transform: capitalize;
+    line-height: 1.11;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: var(--clr-30);
+  }
+
+  .logos-and-socials {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    padding-inline: 31px;
+    display: flex;
+    column-gap: 40px;
+    row-gap: 30px;
+  }
+
+  .logos-and-socials .socials {
+    display: flex;
+    gap: 10px;
+    margin-left: 12px;
+  }
+
+  .logos-and-socials > p {
+    margin-top: 27px;
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.74;
+    letter-spacing: 0.065em;
+  }
+}

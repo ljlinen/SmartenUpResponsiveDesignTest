@@ -1,0 +1,41 @@
+.section-four {
+    position: relative;
+    padding-inline: 32px;
+    overflow-x: hidden;
+
+  .testimonials-cards {
+    display: flex;
+    margin-top: 50px;
+    width: fit-content;
+    gap: 31px;
+  }
+
+  .bottom-indicator {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 47px;
+    margin-bottom: 95px;
+  }
+
+  .bottom-indicator .wrap {
+    display: flex;
+    align-items: center;
+    gap: 12.38px;
+  }
+
+  .bottom-indicator .wrap span {
+    height: 13.5px;
+    width: 13.5px;
+    background-color: var(--clr-30);
+    border-radius: 10px;
+  }
+
+  .bottom-indicator .wrap :nth-child(3) {
+    height: 22.5px;
+    width: 22.5px;
+    background-image: url('/texture.png');
+    background-size: cover;
+    border-radius: 10px;
+  }
+}

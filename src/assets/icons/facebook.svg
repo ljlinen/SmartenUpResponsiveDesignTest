@@ -1,0 +1,10 @@
+<svg width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<circle cx="14" cy="14.2139" r="14" fill="url(#pattern0_1_891)"/>
+<path d="M12.7087 20.5177V14.9641H10.8398V12.7998H12.7087V11.2037C12.7087 9.35138 13.84 8.34277 15.4924 8.34277C16.2839 8.34277 16.9642 8.4017 17.1624 8.42804V10.3638L16.0164 10.3643C15.1178 10.3643 14.9438 10.7913 14.9438 11.418V12.7998H17.087L16.8079 14.9641H14.9438V20.5177H12.7087Z" fill="white"/>
+<defs>
+<pattern id="pattern0_1_891" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_1_891" transform="translate(-0.25) scale(0.00416667)"/>
+</pattern>
+<image id="image0_1_891" width="360" height="240" preserveAspectRatio="none" xlink:href="/texture.png" />
+</defs>
+</svg>

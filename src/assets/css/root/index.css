@@ -1,0 +1,29 @@
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  /* Color Variables (Using the 60% 30% 10% rule */
+  --clr-60: rgba(47, 31, 111, 1);
+  --clr-30: rgba(255, 255, 255, 1);
+  --clr-10: #000;
+  font-size: 62.25%;
+}
+
+body {
+  background-color: var(--clr-60);
+  font-size: 1.6rem;
+  font-family: Lato;
+  color: var(--clr-30);
+  min-height: 600vh;
+}
+
+/* GLOBAL CSS (since some of the elements repeated the same styles */
+
+  .texture-text {
+    background-image: url('/texture.png');
+    background-size: cover;
+    color: transparent;
+    background-clip: text;
+  }

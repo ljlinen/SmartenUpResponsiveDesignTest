@@ -1,0 +1,91 @@
+.live-demo-card {
+  width: 332px;
+  height: 449.078px;
+  border-radius: 8.36px;
+  border-width: 0.84px;
+  padding-inline: 15px;
+  padding-top: 16.73px;
+  border: 0.84px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 3.35px 16.73px -0.84px rgba(0, 0, 0, 0);
+  border: 0.84px solid rgba(255, 255, 255, 0.2);
+  position: relative;
+
+  .texture {
+    position: absolute;
+    inset: 0;
+    filter: opacity(.07);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.084) 0%, rgba(217, 217, 217, 0.042) 100%), url('../../img/pinnertexture.png');
+    background-size: cover;
+    z-index: -1;
+  }
+
+  >.background {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.084) 0%, rgba(217, 217, 217, 0.042) 100%);
+    background-size: cover;
+    z-index: -2;
+  }
+
+  .character-image {
+    width: 301.89px;
+    height: 221.61px;
+    object-fit: cover;
+    border-radius: 8.36px;
+    border-width: 0.84px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .type {
+    margin-top: 25px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .type>h3 {
+    font-family: Lato;
+    font-weight: 500;
+    font-size: 20.07px;
+    line-height: 1.11;
+    letter-spacing: 0.0135em;
+    vertical-align: middle;
+    text-transform: capitalize;
+  }
+
+  .character-info {
+    display: flex;
+    margin-top: 15px;
+    gap: 10px;
+  }
+
+  .character-info img {
+    height: 44.32px;
+    width: 44.32px;
+    border-radius: 20px;
+  }
+
+  .character-info .wrap h4 {
+    font-family: Lato;
+    font-weight: 500;
+    font-size: 15.05px;
+    line-height: 1.11;
+    letter-spacing: 0.035em;
+  }
+
+  .character-info .wrap p {
+    margin-top: 6.42px;
+    font-family: Lato;
+    font-weight: 400;
+    font-style: Medium;
+    font-size: 8.36px;
+    line-height: 1.11;
+    letter-spacing: 0.035em;
+  }
+
+  .button {
+    margin-top: 21.74px;
+    margin-inline: 6px;
+  }
+
+}

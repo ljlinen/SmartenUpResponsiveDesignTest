@@ -1,0 +1,32 @@
+@media screen and (min-width: 512px) {
+  
+  /* GLOBAL */
+
+  .page-scroll-buttons {
+    display: flex;
+  }
+
+  /* HEADER QUERIES */
+
+  header {
+    nav .right .buttons > :first-child {
+      display: none;
+    }
+
+    nav .right .buttons > :last-child {
+      display: flex !important;
+    }
+  }
+
+  /* SERVICES QUERIES */
+
+  .secourwork {
+
+  }
+
+
+}
+
+@media screen and (min-width: 800px) {
+
+}

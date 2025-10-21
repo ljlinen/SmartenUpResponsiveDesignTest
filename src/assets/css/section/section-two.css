@@ -1,0 +1,112 @@
+.section-two {
+  .head {
+    margin-top: 8px;
+    padding-inline: 28px;
+    padding-bottom: 40px;
+    width: 100%;
+  }
+
+  .head h2 {
+    font-family: Ondo;
+    font-weight: 800;
+    font-size: clamp(34.29px,
+      calc(34.29px + (66 - 34.29) * ((100vw - 390px) / (1440 - 390))),
+      66px
+    );
+    line-height: 1.11;
+    letter-spacing: 0.04em;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+  }
+
+  .head p {
+    margin-top: 12px;
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.72;
+    letter-spacing: 0.04em;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+
+  .body .scrollable-contents {
+    width: 100%;
+    overflow: clip;
+  }
+
+  .body .scrollable-contents .contents {
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    gap: 12px;
+    margin-top: 20px;
+    transform: translateX(-56.5vw);
+  }
+
+  .body .scrollable-contents .contents .sneak-peek {
+    display: flex;
+    width: 232.31px;
+    height: 188.96px;
+  }
+  
+  .body .scrollable-contents .contents .sneak-peek.normal-game {
+    /* width: fit-content; */
+    border-radius: 5.78px;
+    border-width: 0.58px;
+    border-image: url('/texture.png') 20;
+    border-radius: 5.78px;
+    overflow: hidden;
+  }
+
+  .body .scrollable-contents .contents .main-game {
+    max-width: unset;
+    width: 330px;
+    height: 230.11px;
+  }
+
+  .body .scrollable-contents .contents #curren-sneak-peak-title {
+    transform: translate(115px, 97%);
+    font-family: Ondo;
+    font-weight: 800;
+    font-size: 13.07px;
+    line-height: 1.11;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  .body .scrollable-contents .contents #curren-sneak-peak-logo {
+    transform: translate(156px, 5%);
+  }
+
+  .body .scrollable-contents .contents > :first-child.sneak-peek {
+    display: flex;
+    justify-content: right;
+    margin-top: 53px;
+  }
+
+  .body .scrollable-contents .contents > :first-child.sneak-peek img {
+    object-fit: cover;
+    object-position: right;
+  }
+
+  .body .scrollable-contents .contents :last-child.sneak-peek img {
+    object-fit: cover;
+    object-position: left;
+  }
+
+  .body .scrollable-contents .contents :last-child.sneak-peek {
+    margin-top: 30px;
+  }
+
+
+  .body .cto {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 18px;
+    gap: 10px;
+  }
+}
