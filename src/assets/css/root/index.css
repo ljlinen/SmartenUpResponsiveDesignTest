@@ -3,7 +3,7 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
+
   /* Color Variables (Using the 60% 30% 10% rule */
   --clr-60: rgba(47, 31, 111, 1);
   --clr-30: rgba(255, 255, 255, 1);
@@ -16,14 +16,13 @@ body {
   font-size: 1.6rem;
   font-family: Lato;
   color: var(--clr-30);
-  min-height: 600vh;
 }
 
-/* GLOBAL CSS (since some of the elements repeated the same styles */
+/* GLOBAL CSS */
 
-  .texture-text {
-    background-image: url('/texture.png');
-    background-size: cover;
-    color: transparent;
-    background-clip: text;
-  }
+.texture-text {
+  background-image: url('/texture.png');
+  background-size: cover;
+  color: transparent;
+  background-clip: text;
+}

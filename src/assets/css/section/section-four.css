@@ -1,7 +1,7 @@
 .section-four {
-    position: relative;
-    padding-inline: 32px;
-    overflow-x: hidden;
+  position: relative;
+  padding-inline: clamp(3.1rem, 7.44vw, 10rem);
+  overflow-x: hidden;
 
   .testimonials-cards {
     display: flex;

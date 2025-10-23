@@ -1,12 +1,12 @@
 header {
   padding-bottom: 40px;
-   background-color: var(--clr-60);
-  
+  background-color: var(--clr-60);
+
   nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: clamp(4rem, 14.11vw , 5.57rem);
+    padding-top: clamp(4rem, 10vw, 5.57rem);
     padding-inline: clamp(3.1rem, 7.44vw, 10rem);
   }
 
@@ -16,21 +16,15 @@ header {
     gap: 6px;
   }
 
-  nav .logo .icon {
-    width: 38.826px;
-    height: 29.582px;
-    background-image: url('../../img/headerhero.jpg');
-    background-size: cover;
-    -webkit-mask: url('../../icons/logo.svg') no-repeat centerr;
-    -wbkit-mask-size: contain;
-    mask: url('../../icons/logo.svg') no-repeat centerr;
-    mask-size: contain;
+  nav .logo>svg {
+    width: clamp(38.826px, calc(38.826px + (45.75 - 38.826) * ((100vw - 390px) / (1440 - 390))), 45.75px);
+    height: clamp(29.582px, calc(29.582px + (34.85 - 29.582) * ((100vw - 320px) / (1440 - 320))), 34.85px);
   }
-   
+
   nav .logo p {
     font-family: Ondo;
     font-weight: 500;
-    font-size: clamp(2.61rem, 4.41vw , 3.07rem);
+    font-size: clamp(2.61rem, 4.41vw, 3.07rem);
     letter-spacing: 0.04em;
   }
 
@@ -50,35 +44,29 @@ header {
     font-weight: 600;
   }
 
-  @media (min-width: 800px) {
-    nav ul {
-      display: flex;
-    }
-  }
 
 
   /* Lockup */
-  
+
 
   .lockup {
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
   }
-  
+
   .lockup .type-lockup {
-    padding-inline: 31px;
+    padding-inline: clamp(31px, 7.9vw, 104px);
     margin-top: clamp(4rem, 8.43vw, 12rem);
   }
-  
+
   .lockup .type-lockup h1 {
-    /* max-width: 334px; */
+    max-width: clamp(334px, 85.65vw, 578.08px);
     font-family: Ondo;
     text-transform: uppercase;
     font-size: clamp(40.29px,
-      calc(40.29px + (68.94 - 40.29) * ((100vw - 390px) / (1440 - 390))),
-      68.94px
-    );
+        calc(40.29px + (68.94 - 40.29) * ((100vw - 390px) / (1440 - 390))),
+        68.94px);
     letter-spacing: 0.04em;
     line-height: 1.11;
     vertical-align: middle;
@@ -92,18 +80,20 @@ header {
     color: transparent;
     background-clip: text;
   }
-  
+
   .lockup .type-lockup p {
+    max-width: clamp(329px, calc(329px + (602 - 329) * ((100vw - 320px) / (1440 - 320))), 602px);
     letter-spacing: 0.04em;
     line-height: 1.85;
     vertical-align: middle;
     margin-top: 17px;
     font-family: 'Lato';
-    font-weight: 400;
+    font-weight: 100;
+    font-size: clamp(1.6rem, 4.12vw, 1.89rem);
   }
 
   .lockup img {
-    height: 527px;
+    height: clamp(527px, calc(527px + (947 - 527) * ((100vw - 390px) / (1440 - 390))), 947px);
     object-fit: cover;
     position: relative;
     margin-top: -52px;
@@ -112,32 +102,22 @@ header {
     mix-blend-mode: color-dodge;
   }
 
-  @media (min-width: 800px) {
-    .lockup {
-      flex-direction: row;
-      overflow-x: visible;
-    }
-
-    .lockup > * {
-      width: 50%;
-    }
-
-    .lockup img {
-      height: 947px;
-      left: -425px;
-    }
-  }
-
   .infinite-scroll-and-cto {
     display: flex;
     flex-direction: column;
+    position: relative;
+    z-index: 1;
+  }
+
+  .infinite-scroll-and-cto .infinite-scroller {
+    margin-top: -27px;
   }
 
   .infinite-scroll-and-cto .cto {
     display: flex;
     width: 100%;
     justify-content: center;
-    margin-top: 28px;
+    margin-top: clamp(28px, 7vw, 60px);
     gap: 10px;
   }
 
@@ -145,7 +125,8 @@ header {
     display: flex;
     width: 100%;
     justify-content: center;
-    margin-top: 43px;
+    margin-top: 4.3em;
+    font-size: clamp(10.04px, 2.57vw, 14.1px);
   }
 
   .achievements ul {
@@ -153,22 +134,23 @@ header {
     width: 100%;
     align-items: center;
     justify-content: center;
-    gap: 22px;
+    gap: 2.2em;
   }
-   
+
   .achievements ul li {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: .355em;
   }
 
   .achievements ul li h2 {
     font-family: Ondo;
     font-weight: 500;
-    font-size: 21.28px;
+    font-size: 2.128em;
     line-height: 1.11;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.025em;
     text-transform: uppercase;
   }
 
@@ -181,13 +163,78 @@ header {
   }
 
   .achievements ul li p {
-    margin-top: -3px;
+    margin-top: -0.3em;
     font-family: Lato;
     font-weight: 400;
-    font-size: 13.28px;
+    font-size: 1.328em;
     line-height: 1.85;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.0156em;
     vertical-align: middle;
     text-transform: capitalize;
+  }
+
+  @media (min-width: 1200px) {
+    nav ul {
+      display: flex;
+    }
+
+    .lockup {
+      flex-direction: row;
+      overflow-x: visible;
+    }
+
+
+    .lockup>* {
+      width: 50%;
+    }
+
+    .lockup .type-lockup {
+      padding-right: 0;
+    }
+
+    .lockup .type-lockup p {
+      margin-top: 14px;
+    }
+
+    .lockup img {
+      height: 947px;
+      left: -353px;
+      transform: scale(0.92);
+      margin-top: -114px;
+    }
+
+    .infinite-scroll-and-cto {
+      flex-direction: column-reverse;
+      margin-top: -340px;
+    }
+
+    .infinite-scroll-and-cto .cto {
+      justify-content: unset;
+      margin-top: 28px;
+    }
+
+    .infinite-scroll-and-cto .infinite-scroller {
+        margin-top: clamp(54px, 4.50vw, 77px);
+    }
+
+    .cto-and-achievements {
+      padding-inline: clamp(31px, 7.9vw, 104px);
+    }
+
+    .achievements ul {
+      justify-content: unset;
+    }
+
+
+    .infinite-scroller {
+      margin-top: 20px;
+    }
+  }
+
+}
+
+@media (min-width: 1200px) {
+  header {
+    padding-bottom: clamp(40px, 10vw, 86px);
   }
 }

@@ -6,12 +6,12 @@ const production = true;
 
 // https://vite.dev/config/
 export default defineConfig({
-    base: production ? "/SmartenUpResponsiveDesignTest/" : '/',
+  base: production ? "/SmartenUpTest/" : '/',
   plugins: [react(), svgr({
     // svgr options: https://react-svgr.com/docs/options/
     svgrOptions: { exportType: "default", ref: true, svgo: false, titleProp: true },
-     include: "**/*.svg",
-    })],
+    include: "**/*.svg",
+  })],
   server: {
     port: 3005,
     open: true,

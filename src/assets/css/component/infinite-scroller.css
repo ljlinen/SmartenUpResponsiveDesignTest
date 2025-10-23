@@ -1,12 +1,13 @@
 .infinite-scroller {
   width: 100%;
   overflow-x: clip;
-  height: calc(49.79px + .55px + .55px);
+  height: calc(2.99em + .55px + .55px);
   position: relative;
   margin-top: -27px;
   transform: rotate(-1.98deg);
   box-shadow: 0px 2.21px 11.06px -0.55px rgba(0, 0, 0, 0);
-  
+  font-size: clamp(1.66rem, 3.23vw, 3rem);
+
   .image {
     inset: 0;
     background-image: url('../../img/pinnertexture.png');
@@ -16,7 +17,7 @@
     filter: blur(20px);
     z-index: 0;
   }
-  
+
   .overlay {
     inset: 0;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.084) 0%, rgba(217, 217, 217, 0.042) 100%);
@@ -24,7 +25,7 @@
     position: absolute;
     z-index: 2;
   }
-  
+
   .content {
     display: flex;
     align-items: center;
@@ -32,21 +33,20 @@
     position: absolute;
     border: 0.30px solid rgba(255, 255, 255, 0.2);
     z-index: 4;
-    left: -153.56px;
+    /* left: -153.56px; */
   }
-  
+
   .content ul {
     height: 100%;
     display: flex;
     align-items: center;
     width: fit-content;
-    gap: 1.6572em;
+    gap: 1.65168em;
     text-transform: uppercase;
-    font-size: clamp(1.66rem,
-      calc(1.66rem + (3 - 1.66) * ((100vw - 390px) / (1440 - 390))),
-      3rem);
+    font-size: 1em;
     font-family: Ondo;
-    font-weight: 500;
+    font-weight: 800;
+    letter-spacing: 0.0401em;
     z-index: 2;
   }
 
@@ -61,6 +61,8 @@
   }
 
   ul li svg {
+    height: 1.209em;
+    width: 1.209em;
     max-width: unset;
   }
 }
