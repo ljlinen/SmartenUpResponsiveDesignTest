@@ -1,4 +1,5 @@
 .infinite-scroller {
+  max-width: calc(100% - 1px);
   width: 100%;
   overflow-x: clip;
   height: calc(2.99em + .55px + .55px);

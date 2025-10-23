@@ -90,7 +90,7 @@
 
 @font-face {
     font-family: 'Ondo';
-    src: url('FONTSPRINGDEMO-OndoMediumRegular.woff2') format('woff2'),
+    src: url('../../fonts/FONTSPRINGDEMO-OndoMediumRegular.woff2') format('woff2'),
         url('../../fonts/FONTSPRINGDEMO-OndoMediumRegular.woff') format('woff'),
         url('../../fonts/FONTSPRINGDEMO-OndoMediumRegular.ttf') format('truetype');
     font-weight: 500;

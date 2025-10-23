@@ -34,7 +34,7 @@
   .bottom-indicator .wrap :nth-child(3) {
     height: 22.5px;
     width: 22.5px;
-    background-image: url('/texture.png');
+    background-image: url('../../../../public/texture.png');
     background-size: cover;
     border-radius: 10px;
   }

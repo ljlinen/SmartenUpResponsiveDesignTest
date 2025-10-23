@@ -293,8 +293,8 @@
 <stop stop-color="white"/>
 <stop offset="1" stop-color="white" stop-opacity="0"/>
 </radialGradient>
-<image id="image0_1_597" width="360" height="240" preserveAspectRatio="none" xlink:href="/texture.png"/>
+<image id="image0_1_597" width="360" height="240" preserveAspectRatio="none" xlink:href="./texture.png"/>
 
-<image id="image1_1_597" width="1006" height="638" preserveAspectRatio="none" xlink:href="/img/game (2).jpg"/>
+<image id="image1_1_597" width="1006" height="638" preserveAspectRatio="none" xlink:href="./game(2).jpg"/>
 </defs>
 </svg>

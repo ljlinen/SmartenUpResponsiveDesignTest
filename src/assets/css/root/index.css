@@ -21,7 +21,7 @@ body {
 /* GLOBAL CSS */
 
 .texture-text {
-  background-image: url('/texture.png');
+  background-image: url('../../../../public/texture.png');
   background-size: cover;
   color: transparent;
   background-clip: text;

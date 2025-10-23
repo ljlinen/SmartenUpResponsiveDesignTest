@@ -23,6 +23,7 @@ export default function Header() {
         </ul>
         <span className='menu-or-cart'>
           <IconMenu />
+          <IconCart />
         </span>
       </nav>
       <div className="lockup">

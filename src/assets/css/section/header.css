@@ -40,7 +40,11 @@ header {
     gap: 40px;
   }
 
-  nav ul :first-child {
+  nav .menu-or-cart > :last-child {
+    display: none;
+  }
+
+  nav ul > :first-child {
     font-weight: 600;
   }
 
@@ -74,7 +78,7 @@ header {
 
   .lockup .type-lockup h1 div {
     display: inline;
-    background-image: url('/texture.png');
+    background-image: url('../../../../public/texture.png');
     background-size: cover;
     background-position: center;
     color: transparent;
@@ -155,7 +159,7 @@ header {
   }
 
   .achievements ul li h2 span {
-    background-image: url('/texture.png');
+    background-image: url('../../../../public/texture.png');
     color: transparent;
     background-size: cover;
     background-clip: text;
@@ -176,6 +180,13 @@ header {
   @media (min-width: 1200px) {
     nav ul {
       display: flex;
+    }
+
+    nav .menu-or-cart > :first-child {
+      display: none;
+    }
+    nav .menu-or-cart > :last-child {
+      display: unset;
     }
 
     .lockup {
@@ -214,7 +225,7 @@ header {
     }
 
     .infinite-scroll-and-cto .infinite-scroller {
-        margin-top: clamp(54px, 4.50vw, 77px);
+      margin-top: clamp(54px, 4.50vw, 77px);
     }
 
     .cto-and-achievements {

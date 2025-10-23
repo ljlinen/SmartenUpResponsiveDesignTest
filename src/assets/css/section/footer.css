@@ -1,5 +1,5 @@
 footer {
-  height: 1085px;;
+  height: 1085px;
   width: 100%;
   position: relative;
 
@@ -127,5 +127,15 @@ footer {
     font-size: 14px;
     line-height: 1.74;
     letter-spacing: 0.065em;
+  }
+}
+
+@media (min-width: 550px) {
+  footer {
+    height: 800px;
+  }
+
+  .footer .background-2 {
+    background-position: -520px 0px;
   }
 }

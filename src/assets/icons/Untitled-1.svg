@@ -3,7 +3,7 @@
 <pattern id="pattern0_1_567" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0_1_567" transform="translate(-0.25) scale(0.00416667)"/>
 </pattern>
-<image id="image0_1_567" width="360" height="240" preserveAspectRatio="none" xlink:href="/texture.png"/>
+<image id="image0_1_567" width="360" height="240" preserveAspectRatio="none" xlink:href="./texture.png"/>
 </defs>
 <path d="M10.3729 0.25595L13.3121 7.42639L20.6686 9.86266L13.4982 12.8019L11.0619 20.1584L8.12269 12.988L0.766145 10.5517L7.93659 7.61249L10.3729 0.25595Z" fill="url(#pattern0_1_567)"/>
 </svg>

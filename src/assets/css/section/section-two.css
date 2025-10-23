@@ -13,9 +13,8 @@
     font-family: Ondo;
     font-weight: 800;
     font-size: clamp(34.29px,
-      calc(34.29px + (66 - 34.29) * ((100vw - 390px) / (1440 - 390))),
-      66px
-    );
+        calc(34.29px + (66 - 34.29) * ((100vw - 390px) / (1440 - 390))),
+        66px);
     line-height: 1.11;
     letter-spacing: 0.04em;
     text-align: center;
@@ -57,12 +56,12 @@
     width: clamp(232.31px, 50vw, 451.13px);
     height: clamp(188.96px, 40vw, 366.969px);
   }
-  
+
   .body .scrollable-contents .contents .sneak-peek.normal-game {
     /* width: fit-content; */
     border-radius: 5.78px;
     border-width: 0.58px;
-    border-image: url('/texture.png') 20;
+    border-image: url('./texture.png') 20;
     border-radius: 5.78px;
     overflow: hidden;
   }
@@ -87,13 +86,13 @@
     transform: translate(156px, 5%);
   }
 
-  .body .scrollable-contents .contents > :first-child.sneak-peek {
+  .body .scrollable-contents .contents> :first-child.sneak-peek {
     display: flex;
     justify-content: right;
     margin-top: 53px;
   }
 
-  .body .scrollable-contents .contents > :first-child.sneak-peek img {
+  .body .scrollable-contents .contents> :first-child.sneak-peek img {
     object-fit: cover;
     object-position: right;
     width: 100%;

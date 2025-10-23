@@ -4,6 +4,6 @@
 <pattern id="pattern0_1_839" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0_1_839" transform="matrix(0.0160583 0 0 0.00843283 -1.37244 -0.393136)"/>
 </pattern>
-<image id="image0_1_839" width="360" height="240" preserveAspectRatio="none" xlink:href="/texture.png"/>
+<image id="image0_1_839" width="360" height="240" preserveAspectRatio="none" xlink:href="./texture.png"/>
 </defs>
 </svg>

@@ -16,7 +16,7 @@
     inset: 0;
     transform: skew(-14deg);
     background-position: center;
-    background-image: url('/texture.png');
+    background-image: url('./texture.png');
     background-size: cover;
     z-index: -2;
   }
