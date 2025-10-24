@@ -78,7 +78,7 @@ header {
 
   .lockup .type-lockup h1 div {
     display: inline;
-    background-image: url('../../../../public/texture.png');
+    background-image: url('../../img/texture.png');
     background-size: cover;
     background-position: center;
     color: transparent;
@@ -159,7 +159,7 @@ header {
   }
 
   .achievements ul li h2 span {
-    background-image: url('../../../../public/texture.png');
+    background-image: url('../../img/texture.png');
     color: transparent;
     background-size: cover;
     background-clip: text;

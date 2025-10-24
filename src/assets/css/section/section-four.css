@@ -5,17 +5,23 @@
 
   .testimonials-cards {
     display: flex;
-    margin-top: 50px;
+    margin-top: clamp(50px, 13vw, 80px);
     width: fit-content;
     gap: 31px;
+  }
+
+  @media (min-width: 800px) {
+    .testimonials-cards {
+      justify-self: center;
+    }
   }
 
   .bottom-indicator {
     display: flex;
     width: 100%;
     justify-content: center;
-    margin-top: 47px;
-    margin-bottom: 95px;
+    margin-top: clamp(47px, 12vw, 77px);
+    margin-bottom: clamp(95px, 24.42vw, 150px);
   }
 
   .bottom-indicator .wrap {
@@ -34,7 +40,7 @@
   .bottom-indicator .wrap :nth-child(3) {
     height: 22.5px;
     width: 22.5px;
-    background-image: url('../../../../public/texture.png');
+    background-image: url('../../img/texture.png');
     background-size: cover;
     border-radius: 10px;
   }

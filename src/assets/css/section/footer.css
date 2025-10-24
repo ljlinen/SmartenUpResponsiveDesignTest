@@ -12,14 +12,14 @@ footer {
     z-index: -2;
     background-color: var(--clr-60);
   }
-  
+
   .background-2 {
     position: absolute;
     inset: 0;
-    background-image: url('../../img/55f7aeb09f18207824b6c76f0576386f2d4e33dd.jpg');
+    background-image: url('../../img/footer_background.webp');
     mix-blend-mode: color-dodge;
     background-size: cover;
-    background-position: -520px -50px;
+    background-position: -520px 0;
     z-index: -1;
   }
 
@@ -30,9 +30,15 @@ footer {
     z-index: 2;
   }
 
+  .outro-and-links {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   .footer-outro {
     margin-top: 18px;
-    padding-inline: 31px;
+    padding-left: clamp(3.1rem, 7.44vw, 10rem);
+
   }
 
   .footer-outro .logo {
@@ -47,7 +53,7 @@ footer {
     background-size: cover;
     background-position: 20px;
   }
-   
+
   .footer-outro .logo p {
     font-family: Ondo;
     font-weight: 500;
@@ -56,7 +62,8 @@ footer {
     font-family: Ondo;
   }
 
-  .footer-outro > p {
+  .footer-outro>p {
+    max-width: 315px;
     margin-top: 10px;
     font-size: 16px;
     letter-spacing: 0.04em;
@@ -69,7 +76,7 @@ footer {
   .quicklinks {
     display: flex;
     flex-wrap: wrap;
-    padding-inline: 31px;
+    padding-inline: clamp(3.1rem, 7.44vw, 10rem);
     margin-top: 26px;
     row-gap: 55px;
     column-gap: 50px;
@@ -107,12 +114,14 @@ footer {
   .logos-and-socials {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 30px;
-    padding-inline: 31px;
+    margin-top: 40px;
+    padding-inline: clamp(3.1rem, 7.44vw, 10rem);
     display: flex;
     column-gap: 40px;
     row-gap: 30px;
   }
+
+  .logos-and-socials>svg {}
 
   .logos-and-socials .socials {
     display: flex;
@@ -120,13 +129,14 @@ footer {
     margin-left: 12px;
   }
 
-  .logos-and-socials > p {
+  .logos-and-socials>p {
     margin-top: 27px;
     font-family: Lato;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.74;
     letter-spacing: 0.065em;
+    min-width: 40%;
   }
 }
 
@@ -134,8 +144,20 @@ footer {
   footer {
     height: 800px;
   }
+}
 
+@media (min-width: 815px) {
+  .logos-and-socials>p {
+    margin-top: 0 !important;
+  }
+  
   .footer .background-2 {
-    background-position: -520px 0px;
+    background-position: 0 0;
+  }
+}
+
+@media (min-width: 1440px) {
+  footer {
+    height: 720px;
   }
 }

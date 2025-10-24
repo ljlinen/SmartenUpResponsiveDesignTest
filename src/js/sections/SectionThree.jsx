@@ -2,12 +2,18 @@ import Button from '../components/Button';
 import LiveDemoCard from '../components/LiveDemoCard';
 import '../../assets/css/section/section-three.css';
 import imgHero from '../../assets/img/discoverhero.png';
-import imgCharacter1 from '../../assets/img/character.jpg';
-import imgCharacter2 from '../../assets/img/character 2.jpg';
-import imgCharacter3 from '../../assets/img/character 3.jpg';
-import imgCharacter4 from '../../assets/img/character 4.jpg';
-import imgCharacter5 from '../../assets/img/character 5.png';
-import imgCharacter6 from '../../assets/img/character 6.png';
+import imgCharacter1 from '../../assets/img/character_optimised.webp';
+import imgCharacter2 from '../../assets/img/character_2_optimised.webp';
+import imgCharacter3 from '../../assets/img/character_3_optimised.webp';
+import imgCharacter4 from '../../assets/img/character_4_optimised.webp';
+import imgCharacter5 from '../../assets/img/character_5_optimised.webp';
+import imgCharacter6 from '../../assets/img/character_6_optimised.webp';
+import imgProf1 from '../../assets/img/PP_optimised.jpg';
+import imgProf2 from '../../assets/img/PP_optimised_1.jpg';
+import imgProf3 from '../../assets/img/PP_optimised_2.jpg';
+import imgProf4 from '../../assets/img/PP_optimised_3.jpg';
+import imgProf5 from '../../assets/img/PP_optimised_4.jpg';
+import imgProf6 from '../../assets/img/PP_optimised_5.jpg';
 import InfiniteScroller from '../components/InfiniteScroller';
 
 export default function SectionThree() {
@@ -37,48 +43,50 @@ export default function SectionThree() {
         </div>
       </div>
       <div className="characters">
-        {
-          [
-            {
-              actor: 'Cameron Williamson',
-              organisation: 'Gillette',
-              imgCharacter: imgCharacter1,
-              imgProfile: imgHero,
-            },
-            {
-              actor: 'Dianne Russell',
-              organisation: 'Louis Vuitton',
-              imgCharacter: imgCharacter2,
-              imgProfile: imgHero,
-            },
-            {
-              actor: 'Jane Cooper',
-              organisation: 'MasterCard',
-              imgCharacter: imgCharacter3,
-              imgProfile: imgHero,
-            },
-            {
-              actor: 'Cody Fisher',
-              organisation: 'The Walt Disney Company',
-              imgCharacter: imgCharacter4,
-              imgProfile: imgHero,
-            },
-            {
-              actor: 'Wade Warren',
-              organisation: 'Gillette',
-              imgCharacter: imgCharacter5,
-              imgProfile: imgHero,
-            },
-            {
-              actor: 'Robert Fox',
-              organisation: "L'Oréal",
-              imgCharacter: imgCharacter6,
-              imgProfile: imgHero,
-            },
-          ].map((item, i) => {
-            return <LiveDemoCard cardData={item} key={'live-demo-card-' + i} />
-          })
-        }
+        <div className="scroll-contents">
+          {
+            [
+              {
+                actor: 'Cameron Williamson',
+                organisation: 'Gillette',
+                imgCharacter: imgCharacter1,
+                imgProfile: imgProf1,
+              },
+              {
+                actor: 'Dianne Russell',
+                organisation: 'Louis Vuitton',
+                imgCharacter: imgCharacter2,
+                imgProfile: imgProf2,
+              },
+              {
+                actor: 'Jane Cooper',
+                organisation: 'MasterCard',
+                imgCharacter: imgCharacter3,
+                imgProfile: imgProf3,
+              },
+              {
+                actor: 'Cody Fisher',
+                organisation: 'The Walt Disney Company',
+                imgCharacter: imgCharacter4,
+                imgProfile: imgProf4,
+              },
+              {
+                actor: 'Wade Warren',
+                organisation: 'Gillette',
+                imgCharacter: imgCharacter5,
+                imgProfile: imgProf5,
+              },
+              {
+                actor: 'Robert Fox',
+                organisation: "L'Oréal",
+                imgCharacter: imgCharacter6,
+                imgProfile: imgProf6,
+              },
+            ].map((item, i) => {
+              return <LiveDemoCard cardData={item} key={'live-demo-card-' + i} />
+            })
+          }
+        </div>
       </div>
       <InfiniteScroller scrollTitles={titles} />
     </section>

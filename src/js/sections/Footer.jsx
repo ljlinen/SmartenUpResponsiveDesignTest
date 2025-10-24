@@ -18,56 +18,57 @@ export default function Footer() {
       <div className="background"></div>
       <div className="background-2"></div>
       <InfiniteScroller scrollTitles={['Gaming spaning', 'Action - packed', 'mind - bending', 'collection og games']} />
-      <div className="footer-outro">
-        <span className="logo">
-          <IconLogo />
-          <p>board</p>
-        </span>
-        <p>A well-designed gaming header often incorporates elements such as game characters, iconic symbols, vibrant colors, and dynamic visuals .</p>
-      </div>
-
-      <div className="quicklinks">
-        <div className="wrap">
-          <h3>company</h3>
-          <ul>
-            <a href="http://#">
-              <li>products</li>
-            </a>
-            <a href="http://#">
-              <li>apps & games</li>
-            </a>
-            <a href="http://#">
-              <li>features</li>
-            </a>
-          </ul>
+      <div className="outro-and-links">
+        <div className="footer-outro">
+          <span className="logo">
+            <IconLogo />
+            <p>board</p>
+          </span>
+          <p>A well-designed gaming header often incorporates elements such as game characters, iconic symbols, vibrant colors, and dynamic visuals .</p>
         </div>
-        <div className="wrap">
-          <h3>help</h3>
-          <ul>
-            <a href="http://#">
-              <li>support</li>
-            </a>
-            <a href="http://#">
-              <li>about</li>
-            </a>
-            <a href="http://#">
-              <li>contact us</li>
-            </a>
-          </ul>
-        </div>
-        <div className="wrap">
-          <h3>resources</h3>
-          <ul>
-            <a href="http://#">
-              <li>youtube playlist</li>
-            </a>
-            <a href="http://#">
-              <li>how to - blog</li>
-            </a>
-            <a href="http://#">
-              <li>terms & conditions</li>
-            </a>
-          </ul>
+        <div className="quicklinks">
+          <div className="wrap">
+            <h3>company</h3>
+            <ul>
+              <a href="http://#">
+                <li>products</li>
+              </a>
+              <a href="http://#">
+                <li>apps & games</li>
+              </a>
+              <a href="http://#">
+                <li>features</li>
+              </a>
+            </ul>
+          </div>
+          <div className="wrap">
+            <h3>help</h3>
+            <ul>
+              <a href="http://#">
+                <li>support</li>
+              </a>
+              <a href="http://#">
+                <li>about</li>
+              </a>
+              <a href="http://#">
+                <li>contact us</li>
+              </a>
+            </ul>
+          </div>
+          <div className="wrap">
+            <h3>resources</h3>
+            <ul>
+              <a href="http://#">
+                <li>youtube playlist</li>
+              </a>
+              <a href="http://#">
+                <li>how to - blog</li>
+              </a>
+              <a href="http://#">
+                <li>terms & conditions</li>
+              </a>
+            </ul>
+          </div>
         </div>
       </div>
 

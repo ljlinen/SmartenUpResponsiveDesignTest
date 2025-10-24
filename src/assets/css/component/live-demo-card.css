@@ -1,14 +1,15 @@
 .live-demo-card {
-  width: 332px;
-  height: 449.078px;
-  border-radius: 8.36px;
+  width: 33.2em;
+  height: 44.9078em;
+  border-radius: .836em;
   border-width: 0.84px;
-  padding-inline: 15px;
-  padding-top: 16.73px;
+  padding-inline: 1.5em;
+  padding-top: 1.673em;
   border: 0.84px solid rgba(255, 255, 255, 0.2);
   box-shadow: 0px 3.35px 16.73px -0.84px rgba(0, 0, 0, 0);
   border: 0.84px solid rgba(255, 255, 255, 0.2);
   position: relative;
+  font-size: clamp(1rem, 0.9vw, 1.198rem);
 
   .texture {
     position: absolute;
@@ -28,8 +29,8 @@
   }
 
   .character-image {
-    width: 301.89px;
-    height: 221.61px;
+    width: 30.189em;
+    height: 22.161em;
     object-fit: cover;
     border-radius: 8.36px;
     border-width: 0.84px;
@@ -38,7 +39,7 @@
   }
 
   .type {
-    margin-top: 25px;
+    margin-top: 2.5em;
     position: relative;
     z-index: 1;
   }
@@ -46,7 +47,7 @@
   .type>h3 {
     font-family: Lato;
     font-weight: 500;
-    font-size: 20.07px;
+    font-size: 2.007em;
     line-height: 1.11;
     letter-spacing: 0.0135em;
     vertical-align: middle;
@@ -55,37 +56,36 @@
 
   .character-info {
     display: flex;
-    margin-top: 15px;
-    gap: 10px;
+    margin-top: 1.5em;
+    gap: 1em;
   }
 
   .character-info img {
-    height: 44.32px;
-    width: 44.32px;
-    border-radius: 20px;
+    height: 4.432em;
+    width: 4.432em;
+    border-radius: 2em;
   }
 
   .character-info .wrap h4 {
     font-family: Lato;
     font-weight: 500;
-    font-size: 15.05px;
+    font-size: 1.505em;
     line-height: 1.11;
     letter-spacing: 0.035em;
   }
 
   .character-info .wrap p {
-    margin-top: 6.42px;
+    margin-top: .642em;
     font-family: Lato;
     font-weight: 400;
-    font-style: Medium;
-    font-size: 8.36px;
+    font-size: .836em;
     line-height: 1.11;
     letter-spacing: 0.035em;
   }
 
   .button {
-    margin-top: 21.74px;
-    margin-inline: 6px;
+    margin-top: 2.174em;
+    margin-inline: .6em;
   }
 
 }

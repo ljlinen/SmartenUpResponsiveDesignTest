@@ -113,7 +113,7 @@
     display: flex;
     width: 100%;
     justify-content: center;
-    margin-top: clamp(10px, 5vw, 40px);
-    gap: 10px;
+    margin-top: clamp(10px, 5vw, 72px);
+    gap: clamp(10px, 1.2vw, 16px);
   }
 }

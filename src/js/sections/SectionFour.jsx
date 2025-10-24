@@ -3,7 +3,6 @@ import LiveDemoCard from '../components/LiveDemoCard';
 import '../../assets/css/section/section-four.css';
 import imgProfile from '../../assets/img/testimonialprofile.png';
 import imgProfile2 from '../../assets/img/testimonialprofile2.png';
-import imgCharacter2 from '../../assets/img/character 2.jpg';
 import InfiniteScroller from '../components/InfiniteScroller';
 import TestimonialCard from '../components/TestimonialCard';
 
